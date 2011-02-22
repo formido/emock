@@ -1,0 +1,7 @@
+% -*- mode: erlang -*-
+{application, emock,
+ [{description,  "gen_server mocking library"},
+  {vsn,          "0.1"},
+  {modules,      [emockr]},
+  {registered,   []},
+  {applications, [kernel, stdlib, sasl]}]}.
